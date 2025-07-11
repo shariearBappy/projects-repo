@@ -15,9 +15,13 @@
   margin: 0;
   padding: 0;
 }
+
 .banner {
   width: 100%;
   background-image: url("images/Hero-bg.png");
+}
+body {
+  background-color: #f7f7ff;
 }
 .container {
   display: flex;
@@ -100,4 +104,235 @@
 }
 .tittleImg img {
   border-radius: 25px;
+}
+.secondSecDiv {
+  background-color: rgba(78, 71, 255, 10%);
+  width: 1140px;
+  margin: auto;
+  margin-top: 60px;
+  border-radius: 17px;
+}
+.secondTittle {
+  text-align: center;
+  padding: 25px;
+  margin-bottom: 25px;
+  color: #252432;
+  font-size: 25px;
+  font-family: "Raleway";
+}
+.numContainer {
+  display: flex;
+}
+
+.numPeople {
+  width: 180px;
+  height: 120px;
+  margin-left: 150px;
+}
+.activeUsers {
+  color: #4e47ff;
+  font-weight: bold;
+  font-size: 50px;
+}
+.des {
+  color: #9a9a9d;
+  font-size: 14px;
+  font-family: "Raleway";
+}
+#thirdTittle {
+  padding-top: 100px;
+}
+.revContainer {
+  display: flex;
+  gap: 150px;
+  justify-content: center;
+}
+.revPeople {
+  width: 250px;
+
+  background-color: #ffffff;
+  border-radius: 5px;
+  box-shadow: 5px 5px 10px rgb(170, 170, 170);
+}
+.revPeople:hover {
+  cursor: pointer;
+}
+.icon {
+  width: 10px;
+  margin-left: 5px;
+  margin-top: 7px;
+}
+.iconContainer {
+  display: flex;
+}
+.review {
+  font-size: 14px;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  font-family: "Raleway";
+  font-weight: bold;
+  padding-left: 5px;
+}
+.des_1 {
+  font-size: 10px;
+  font-family: "Raleway";
+  color: #9a9a9d;
+  padding-bottom: 5px;
+  padding-left: 5px;
+}
+.imgCont {
+  display: flex;
+}
+
+.imgIcons {
+  width: 20px;
+  margin-right: 40px;
+  margin-top: 7px;
+  margin-left: 5px;
+}
+.imgDes {
+  display: block;
+  font-family: "Raleway";
+  font-size: 15px;
+  font-weight: bold;
+  color: #9a9a9d;
+}
+.imgName {
+  display: block;
+  font-size: 10px;
+  font-family: "Raleway";
+  padding-top: 7px;
+  color: #b0aeae;
+}
+.fourthSec {
+  width: 1140px;
+  height: 600px;
+  background-color: #ffffff;
+  margin: auto;
+  border-radius: 20px;
+  margin-top: 70px;
+}
+.fourthTittle {
+  text-align: center;
+  font-size: 27px;
+  font-family: "Raleway";
+  padding-top: 50px;
+  padding-bottom: 20px;
+}
+.fourthDes {
+  text-align: center;
+  font-size: 10px;
+  font-family: "Raleway";
+  padding-bottom: 10px;
+  color: #b0aeae;
+}
+.butt {
+  width: 150px;
+  margin: auto;
+}
+.btn {
+  background-color: #4e47ff;
+  border-radius: 5px;
+  border: none;
+  width: 150px;
+  height: 50px;
+  padding: 15px;
+  margin-top: 30px;
+  font-weight: bold;
+  color: #ffffff;
+}
+
+.btn:hover {
+  background-color: rgb(68, 68, 2);
+  cursor: pointer;
+}
+.fourthImg {
+  width: 700px;
+  display: block;
+  border-radius: 20px;
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+.fifthSec {
+  width: 1140px;
+  height: 500px;
+  margin: auto;
+}
+.fifthCon {
+  display: flex;
+  align-items: center;
+  gap: 400px;
+}
+.fifthTittle {
+  width: 400px;
+}
+.fifthTittleName {
+  font-size: 50px;
+}
+.labelDiv {
+  margin-bottom: 5px;
+}
+.formDiv {
+  width: 500px;
+  margin-top: 60px;
+}
+.formDiv label {
+  font-size: 15px;
+  font-weight: bold;
+}
+.formDiv input {
+  border: none;
+  border-radius: 5px;
+  height: 30px;
+  width: 300px;
+  padding: 7px;
+  margin: 7px;
+}
+
+.formDiv textarea {
+  border: none;
+  border-radius: 5px;
+  height: 100px;
+  width: 300px;
+  padding: 7px;
+  marngin: 7px;
+}
+footer {
+  width: 100%;
+  height: 300px;
+  background-color: #ffffff;
+}
+.footerDiv h2 {
+  text-align: center;
+  padding-top: 50px;
+
+  font-size: 50px;
+  font-weight: bold;
+  font-family: "Raleway";
+  color: #4e47ff;
+}
+.footerDes {
+  color: #b0aeae;
+  width: 550px;
+  margin-left: 470px;
+  text-align: center;
+  padding-top: 15px;
+  font-size: 14px;
+  font-family: "Raleway";
+}
+.navList {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  margin-left: 600px;
+  margin-top: 20px;
+}
+.Item {
+  color: #b0aeae;
+  font-size: 13px;
+}
+.Item:hover {
+  color: rgb(68, 68, 2);
+  cursor: pointer;
 }
